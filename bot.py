@@ -1,5 +1,5 @@
 import telebot
-bot  = telebot.TeleBot("6880916527:AAFkfxbtpTomhsIsHdHfwsQ-0Hjt8OQ2rFo") #просто тайтл бота
+bot  = telebot.TeleBot("") #просто тайтл бота
 
 @bot.message_handler(commands=['start'])#то происходит при нажатии старт
 def start(message):
